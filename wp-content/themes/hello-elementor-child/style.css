@@ -1,0 +1,141 @@
+/*
+Theme Name: Planty Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.1.1.1730208039
+Updated: 2024-10-29 14:20:05
+
+*/
+
+.menu-item-62{
+    padding: 30px 0px;
+    background-color: #DC9F96;  
+    font-weight: 700;
+}
+.menu-item-62 a{
+    background-color: #DC9F96 !important; 
+}
+.site-header .site-navigation ul.menu .menu-item-62 a{
+    color: white;
+}
+.site-navigation ul.menu li {
+    align-items: center;
+}
+.site-header {
+    padding: 0px;
+}
+.site-navigation ul.menu li a {
+    padding: 0px 60px;
+}
+.site-logo.show{
+    margin-left: 30px;
+}
+#site-footer{
+    background-color: white;
+}
+div.footer-inner a{
+    font-size: 16px;
+    color: black;
+    padding: 20px 0px;
+}
+.wpcf7-spinner{
+    display: none;
+}
+.prod-container p {
+	display: flex !important;
+	flex-direction: row;
+	justify-content: center;
+	column-gap: 12px;
+	flex-wrap: wrap;
+}
+.prod-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 25px;
+	justify-content: center;
+}
+
+input.produit-input.wpcf7-number {
+	width: 60px;
+	padding: 10px 5px
+}
+label.produit-label {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	
+}
+label.produit-label br {
+    display: none;
+}
+input.produit-input {
+    text-align: center;
+}
+hr.separator {
+    height: 1px;        /* Hauteur de 1 pixel */
+    background-color: white; /* Couleur de fond blanche */
+    margin: 40px 0;    /* Marges verticales pour espacer le séparateur */
+	border-style: none;
+}
+.bot-form{
+	display: flex;
+	flex-direction: row;
+	gap: 45px;
+	margin-top: 50px;
+	align-items: center;
+}
+.bot-form hr.separator{
+	height: 500px;
+	width: 1px;
+	margin: 0px;
+}
+.bot-form h3{
+	font-family: syne;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 30px;
+}
+.bot-form label{
+	height: 150px;
+}
+.livraison input.wpcf7-form-control{
+	margin-top: 15px;
+}
+.informations input.wpcf7-form-control{
+	margin-top: 15px;
+}
+.eael-contact-form-7-button-align-center .eael-contact-form-7 .wpcf7-form p:nth-last-of-type(1){
+	margin: 0 0;
+}
+.envoyer {
+    display: flex;
+    justify-content: center;
+}
+.site-branding.show-logo {
+    margin: 15px 0px; 
+}
+
+
+@media (max-width: 445px) {
+	.prod-container p { 
+		row-gap: 25px;
+		column-gap: 0px;
+	}
+	
+}
+@media (max-width: 1100px) {
+	.bot-form{
+		flex-direction: column;
+	}
+	.bot-form hr.separator{
+		height: 1px;
+		width: 100%;
+	}
+}
