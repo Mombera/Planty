@@ -121,12 +121,18 @@ hr.separator {
 .site-branding.show-logo {
     margin: 15px 0px; 
 }
-
+.site-navigation-dropdown ul.menu li a {
+    font-family: 'Syne';
+}
+.site-navigation-dropdown ul.menu li a#item-62 {
+	color: white;
+}
 
 @media (max-width: 445px) {
 	.prod-container p { 
 		row-gap: 25px;
 		column-gap: 0px;
+		padding: 10px;
 	}
 	
 }
